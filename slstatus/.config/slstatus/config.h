@@ -66,7 +66,6 @@ static const struct arg args[] = {
         { ipv4, "[ETH: %s]", "enp0s25"},
         { wifi_essid, "[WLAN: %s", "wlp3s0"},
         { ipv4, " %s]", "wlp3s0"},
-        { vol_perc, "[VOL %s]", NULL},
 	{ battery_perc, "[BAT: %2s%%", "BAT0"},
 	{ battery_remaining, " %s]", "BAT0"},
 	{ datetime, " | %s",           "%T" },

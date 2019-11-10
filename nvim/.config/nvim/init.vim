@@ -29,6 +29,8 @@ Plug 'zchee/deoplete-jedi'
 Plug 'junegunn/vim-easy-align'
 "Python idention
 Plug 'Vimjas/vim-python-pep8-indent', {'for': 'python'}
+"Solarized
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
 filetype plugin indent on
 let g:deoplete#enable_at_startup = 1
@@ -118,7 +120,10 @@ set showmode
 "enable search highlighting
 set hlsearch
 
+"solarized
 syntax enable
+set background=dark
+colorscheme solarized
 "disable riv folding
 let g:riv_disable_folding = 1
 
