@@ -35,4 +35,5 @@ fi
 
 redshift -t 6500:3200 -l 54.09:12.17 &
 slstatus &
+xmodmap .Xmodmap
 exec dwm
