@@ -61,6 +61,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *brightness_up[]  =   { "xbacklight", "-inc", "10", NULL };
 static const char *brightness_down[]  = { "xbacklight", "-dec", "10", NULL };
 static const char *termcmd[]  = { "st", NULL };
+static const char *firefox[]  = { "firefox", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -68,7 +69,7 @@ static Key keys[] = {
         { 0,                            XF86MonBrightnessDown, spawn, {.v = brightness_down } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY,                       XK_b,      spawn,          {.v = firefox } } ,
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },

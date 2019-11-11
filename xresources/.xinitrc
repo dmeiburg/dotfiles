@@ -36,4 +36,9 @@ fi
 redshift -t 6500:3200 -l 54.09:12.17 &
 slstatus &
 xmodmap .Xmodmap
-exec dwm
+while true; do
+    # Log stderror to a file 
+    dwm 2> ~/.dwm.log
+    # No error logging
+    #dwm >/dev/null 2>&1
+done
