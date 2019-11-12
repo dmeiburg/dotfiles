@@ -1,5 +1,11 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR BROWSER:firefox
+SETUVAR --export EDITOR:nvim
+SETUVAR NNN_USE_EDITOR:1
+SETUVAR READER:zathura
+SETUVAR TERMINAL:st
+SETUVAR VISUAL:/usr/bin/nvim
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
@@ -30,6 +36,7 @@ SETUVAR fish_color_quote:657b83
 SETUVAR fish_color_redirection:6c71c4
 SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
+SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_greeting:Willkommen\x20zu\x20fish\x2c\x20der\x20freundlichen\x20interaktiven\x20Shell
