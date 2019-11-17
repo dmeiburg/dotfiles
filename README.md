@@ -2,4 +2,6 @@
 
 ### Installation
 
-`$ stow *`
+```bash
+stow *
+```
