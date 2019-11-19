@@ -4,3 +4,5 @@ if status is-login
         exec startx -- -keeptty
     end
 end
+
+source ~/.ssh/ssh-agent-env
