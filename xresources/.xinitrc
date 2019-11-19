@@ -36,7 +36,7 @@ fi
 redshift -t 6500:3200 -l 54.09:12.17 &
 slstatus &
 xmodmap .Xmodmap
-tmux &
+xautolock -time 10 -locker slock &
 while true; do
     # Log stderror to a file 
     dwm 2> ~/.dwm.log
