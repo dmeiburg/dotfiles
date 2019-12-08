@@ -9,6 +9,7 @@ end
 abbr g git
 abbr gc git commit 
 abbr ga git add .
+abbr gp git push origin 
 abbr v nvim
 abbr vim nvim
 abbr port ss -tulanp
