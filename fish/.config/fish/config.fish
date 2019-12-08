@@ -7,7 +7,8 @@ end
 
 # Shortcuts
 abbr g git
-abbr gc git -c 
+abbr gc git commit 
+abbr ga git add .
 abbr v nvim
 abbr vim nvim
 abbr port ss -tulanp
@@ -24,5 +25,5 @@ set -x EDITOR nvim
 set -x BROWSER firefox
 set -x fish_key_bindings fish_vi_key_bindings
 set -x fish_greeting ""
-set -x FZF_DEFAULT_COMMAND find .
+set -gx FZF_DEFAULT_COMMAND find .
 source ~/.ssh/ssh-agent-env
