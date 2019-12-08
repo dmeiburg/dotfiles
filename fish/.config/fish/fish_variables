@@ -1,25 +1,16 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR BROWSER:firefox
-SETUVAR --export EDITOR:nvim
-SETUVAR NNN_USE_EDITOR:1
-SETUVAR READER:zathura
-SETUVAR TERMINAL:st
-SETUVAR VISUAL:/usr/bin/nvim
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
 SETUVAR _fish_abbr_g:git
-SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dm
-SETUVAR _fish_abbr_grep:grep\x20\x2d\x2dcolor\x3dauto
-SETUVAR _fish_abbr_h:history
-SETUVAR _fish_abbr_mkdir:mkdir\x20\x2dpv
-SETUVAR _fish_abbr_ping:ping\x20\x2dc\x205
-SETUVAR _fish_abbr_ports:ss\x20\x2dtulanp
+SETUVAR _fish_abbr_gc:git\x20\x2dc
+SETUVAR _fish_abbr_port:ss\x20\x2dtulanp
 SETUVAR _fish_abbr_v:nvim
-SETUVAR _fish_abbr_xbpsi:xbps-install\x20\x2dS
-SETUVAR _fish_abbr_xbpss:xbps-query\x20\x2dRs
-SETUVAR _fish_abbr_xbpsu:xbps-install\x20\x2dSu
+SETUVAR _fish_abbr_vim:nvim
+SETUVAR _fish_abbr_xi:xbps\x2dinstall\x20\x2dSy
+SETUVAR _fish_abbr_xq:xbps\x2dquery
+SETUVAR _fish_abbr_xu:xbps\x2dinstall\x20\x2dSu
 SETUVAR fish_color_autosuggestion:586e75
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:93a1a1
@@ -42,8 +33,7 @@ SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrbl
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
-SETUVAR fish_greeting:Willkommen\x20zu\x20fish\x2c\x20der\x20freundlichen\x20interaktiven\x20Shell
-SETUVAR fish_key_bindings:fish_vi_key_bindings
+SETUVAR --export fish_key_bindings:fish_vi_key_bindings
 SETUVAR fish_pager_color_completion:B3A06D
 SETUVAR fish_pager_color_description:B3A06D
 SETUVAR fish_pager_color_prefix:cyan\x1e\x2d\x2dunderline
