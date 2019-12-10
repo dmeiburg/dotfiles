@@ -89,7 +89,11 @@ xmap ga <Plug>(EasyAlign)
 "Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
-""""""""""""""""""""""""""""""""""
+"copy paste to system clipboard
+vnoremap <C-y> "+y
+map <C-p> "+P
+
+"""""""""""""""""""""""""""""""""""
 "Interface
 """""""""""""""""""""""""""""""""""
 "show cursor position

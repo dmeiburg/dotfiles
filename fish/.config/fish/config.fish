@@ -13,9 +13,9 @@ abbr gp git push origin
 abbr v nvim
 abbr vim nvim
 abbr port ss -tulanp
-abbr xi xbps-install -Sy
-abbr xq	xbps-query
-abbr xu xbps-install -Su
+abbr xi sudo xbps-install -Sy
+abbr xq	sudo xbps-query -Rs
+abbr xu sudo xbps-install -Su
 
 # Variables
 set -x TERMINAL st
@@ -27,4 +27,5 @@ set -x BROWSER firefox
 set -x fish_key_bindings fish_vi_key_bindings
 set -x fish_greeting ""
 set -gx FZF_DEFAULT_COMMAND find .
+set -x SXHKD_SHELL /bin/sh
 source ~/.ssh/ssh-agent-env
