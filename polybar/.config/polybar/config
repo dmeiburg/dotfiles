@@ -45,8 +45,6 @@ line-color = #f00
 border-size = 0
 border-color = #00000000
 
-override-redirect = true
-wm-restack = bspwm
 padding-left = 0
 padding-right = 2
 
@@ -61,7 +59,7 @@ modules-left = bspwm xwindow
 modules-right = filesystem xbacklight pulseaudio memory cpu wlan eth battery temperature date 
 
 tray-position = right
-tray-padding = 2
+tray-padding = 1
 ;tray-background = #0063ff
 
 ;override-redirect = true
@@ -171,7 +169,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s31f6
+interface = eth0
 interval = 3.0
 
 format-connected-underline = #55aa55
@@ -272,6 +270,8 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
+
+hwmon-path=/sys/devices/platform/coretemp.0/hwmon/hwmon1/temp3_input
 format = <label>
 format-underline = #f50a4d
 format-warn = <label-warn>

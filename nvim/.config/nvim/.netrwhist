@@ -1,4 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
-let g:netrw_dirhist_2='/home/dm/.config/polybar'
-let g:netrw_dirhist_1='/home/dm/playbooks/roles/workstation/files'
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/dm/dotfiles/polybar/.config/polybar'
+let g:netrw_dirhist_7='/home/dm/dotfiles/polybar/.config'
+let g:netrw_dirhist_6='/home/dm/dotfiles/bspwm/.config/bspwm'
+let g:netrw_dirhist_5='/home/dm/dotfiles/bspwm/.config'
+let g:netrw_dirhist_4='/home/dm/dotfiles/bspwm'
+let g:netrw_dirhist_3='/home/dm/dotfiles/polybar/.config/polybar'
+let g:netrw_dirhist_2='/home/dm/dotfiles/polybar/.config'
+let g:netrw_dirhist_1='/home/dm/dotfiles/polybar/.config/polybar'
+let g:netrw_dirhist_0='/home/dm/dotfiles/polybar/.config'
+let g:netrw_dirhist_9='/home/dm/dotfiles/polybar/.config/polybar'

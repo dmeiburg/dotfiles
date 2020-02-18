@@ -2,11 +2,13 @@
 
 sxhkd &
 $HOME/.config/polybar/launch.sh
-
+sudo nm-applet &
+feh --bg-scale ~/.config/bspwm/cloud.jpg
 bspc monitor -d I II III IV V VI VII VIII IX X
+bspc rule -a Zathura state=tiled
 
-bspc config border_width        0 
-bspc config window_gap          5
+bspc config border_width        3 
+bspc config window_gap          2 
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true

@@ -35,7 +35,7 @@ function fzf_key_bindings
     commandline -f repaint
   end
 
-  function fzf-only-file-widget -d "List files and folders"
+  function fzf-only-file-widget -d "List files"
     set -l commandline (__fzf_parse_commandline)
     set -l dir $commandline[1]
     set -l fzf_query $commandline[2]

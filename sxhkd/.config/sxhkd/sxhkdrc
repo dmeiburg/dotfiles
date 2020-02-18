@@ -6,12 +6,25 @@
 super + Return
   st	
 
-super + f
+super + b
   firefox	
 
+super + shift + s
+  sudo shutdown now -P
+
+super + shift + r
+  sudo zzz
+
+super + shift + x
+  slock
+
 # program launcher
-super + @space
+super + d 
 	dmenu_run
+
+# ebook launcher with zathura
+super + z
+	~/bin/dmenu_books.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -22,11 +35,6 @@ XF86MonBrightness{Up,Down}
 
 XF86Audio{Raise,Lower}Volume
   pactl set-sink-volume 0 {+,-}5%
-
-
-# reload bindings
-alt + shift + Escape
-	pkill -USR1 -x sxhkd
 
 #
 # bspwm hotkeys

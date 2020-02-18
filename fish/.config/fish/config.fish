@@ -12,6 +12,8 @@ abbr ga git add .
 abbr gp git push origin 
 abbr v nvim
 abbr vim nvim
+abbr z zathura
+abbr h history
 abbr port ss -tulanp
 abbr xi sudo xbps-install -Sy
 abbr xq	sudo xbps-query -Rs
@@ -28,4 +30,5 @@ set -x fish_key_bindings fish_vi_key_bindings
 set -x fish_greeting ""
 set -gx FZF_DEFAULT_COMMAND find .
 set -x SXHKD_SHELL /bin/sh
+set SYSTEMC_HOME /usr/local/systemc
 source ~/.ssh/ssh-agent-env

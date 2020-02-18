@@ -77,7 +77,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 "use snippets
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<c-Space>"
 let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
@@ -99,8 +99,13 @@ map <C-p> "+P
 "show cursor position
 set ruler
 
+set colorcolumn=81
+
 "show line numbers
 set number relativenumber
+
+"keep some lines below cursor when scrolling
+set scrolloff=15
 
 "show cursor line
 set cursorline
@@ -138,10 +143,6 @@ set foldlevel=99
 """""""""""""""""""""""""""""""""
 "Text, tab, ident...
 """""""""""""""""""""""""""""""""
-
-"spaces instead of tabs
-set smarttab
-set expandtab
 
 "1 tab = 2 spaces
 set shiftwidth=2
