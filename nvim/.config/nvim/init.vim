@@ -80,6 +80,7 @@ vnoremap > >gv
 let g:UltiSnipsExpandTrigger="<c-Space>"
 let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+let g:UltiSnipsSnippetDirectories=["UltiSnips", "/home/dm/.config/nvim/my_snippets"]
 
 "turn off search hightlight
 nmap <leader>, :nohlsearch<CR>
